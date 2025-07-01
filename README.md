@@ -3,7 +3,7 @@
 
 An interactive tool to detect GNSS (Global Navigation Satellite System) spoofing threats by analyzing real satellite data for anomalies such as inconsistent geometry, abnormal position shifts, and unhealthy satellites.
 
-![Screenshot](https://github.com/1216-dev/GPS_Spoofing/assets/your_image_id)
+![Screenshot](https://github.com/1216-dev/GPS_Spoofing/blob/main/ss.png)
 
 ## 🔍 Features
 
