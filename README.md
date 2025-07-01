@@ -1,9 +1,36 @@
 # Spoofing
+# 🚨 GNSS Spoofing Detection Dashboard
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+An interactive tool to detect GNSS (Global Navigation Satellite System) spoofing threats by analyzing real satellite data for anomalies such as inconsistent geometry, abnormal position shifts, and unhealthy satellites.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/1216-devs-projects/v0-spoofing)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/wlFt3GX518R)
+![Screenshot](https://github.com/1216-dev/GPS_Spoofing/assets/your_image_id)
+
+## 🔍 Features
+
+- Real-time spoofing probability estimation based on:
+  - PDOP anomalies
+  - Position jumps
+  - Satellite health status
+- Interactive dashboard with views for:
+  - Satellites tracked
+  - Position logs
+  - Signal metrics
+  - Epoch-wise anomalies
+- Flagged spoofing events with timestamp and breakdown
+
+## 📦 Tech Stack
+
+- Python (Pandas, NumPy, Georinex)
+- Streamlit for the interactive UI
+- RINEX `.obs` and `.nav` file parser
+- Custom anomaly detection logic
+
+## 🚀 Quick Start
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/1216-dev/GPS_Spoofing.git
+   cd GPS_Spoofing
 
 ## Overview
 
